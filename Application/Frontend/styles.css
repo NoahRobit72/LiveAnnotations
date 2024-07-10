@@ -1,0 +1,23 @@
+
+.container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#overlay {
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Ensure the image doesn't interfere with video controls */
+}
